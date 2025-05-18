@@ -147,6 +147,13 @@ body {
   list-style: none;
 }
 
+.list-portfolio-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
 .portfolio-subtitle {
   font-size: 20px;
   font-weight: 500;
@@ -166,12 +173,12 @@ body {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #f4f4fd;
+  color: #4d5ae5;
   text-decoration: none;
 }
 
 .footer-logo-span {
-  color: #4d5ae5;
+  color: #f4f4fd;
 }
 
 .footer-text {
