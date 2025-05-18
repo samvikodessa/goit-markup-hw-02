@@ -1,9 +1,10 @@
 body {
-  font-family: Roboto, Raleway, sans-serif;
+  font-family: Roboto, sans-serif;
   font-weight: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434445;
+  color: #434455;
+  background-color: #ffffff;
 }
 
 .header {
@@ -13,10 +14,10 @@ body {
   font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 700;
-  line-height: 1.16667;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #4d5ae5;
+  color: #2e2f42;
   text-decoration: none;
 }
 
@@ -38,6 +39,10 @@ body {
   color: #404bbf;
 }
 
+.header-address {
+  font-style: normal;
+}
+
 .header-address-list {
   list-style: none;
 }
@@ -45,7 +50,6 @@ body {
 .header-address-link {
   font-size: 16px;
   font-weight: 500;
-  font-style: normal;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
@@ -67,6 +71,7 @@ body {
   color: #ffffff;
 }
 .hero-button {
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -81,26 +86,30 @@ body {
   background-color: #404bbf;
 }
 
+.about {
+  background-color: #ffffff;
+}
 .section-title {
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  text-transform: capitalize;
 }
-
-.section-subtitle {
+.about-subtitle {
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-
-.about {
-  background-color: #ffffff;
+.about-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
 }
-
 .list-about {
   list-style: none;
 }
@@ -126,6 +135,7 @@ body {
 }
 
 .list-team-text {
+  color: #434455;
   text-align: center;
 }
 
@@ -137,6 +147,14 @@ body {
   list-style: none;
 }
 
+.portfolio-subtitle {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
 .footer {
   background-color: #2e2f42;
 }
@@ -145,10 +163,10 @@ body {
   font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 700;
-  line-height: 1.16667;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #4d5ae5;
+  color: #f4f4fd;
   text-decoration: none;
 }
 
